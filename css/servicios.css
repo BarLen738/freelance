@@ -1,0 +1,61 @@
+.content-box .wrap-box {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+
+}
+
+.content-box .header {
+  margin-bottom: 0;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 850px) {
+  .responsive {
+    width: 49.99999%;
+    height: 790px;
+    margin: 6px 0;
+  }
+
+  div.gallery img {
+    max-height: 500px;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,68 @@
+.contact-main_wrapper {
+    padding: 2rem 0;
+}
+
+.wrap-col {
+    padding: 2rem 1rem;
+}
+
+.content-box .wrap-box {
+    padding-top: 2rem;
+    padding-bottom: 0;
+
+}
+
+.content-box .header {
+    margin-bottom: 0;
+}
+
+.fadeInLeft {
+    padding: 0 2rem;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-group {
+    margin-bottom: 2rem;
+}
+
+.contact-main_wrapper h3 {
+    margin: 0;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contact-main_wrapper p {
+    font-size: .85rem;
+}
+
+.map {
+    padding: 1.2rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+    .col-contact-left {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .col-contact-left {
+        width: 50%;
+    }
+
+    .contact-main_wrapper p {
+        font-size: 1rem;
+    }
+
+    .map {
+        width: 50%;
+        float: left;
+    }
+}
